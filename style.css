@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Josefin+Sans&display=swap');
+
+body {
+    background-color: #00282E !important;
+    font-family: 'Inter', sans-serif;
+}
+
+.w-35{
+    width: 35%;
+}
+
+.text-warning {
+    font-family: #F4C20F;
+}
+
+.link-underline-warning {
+    font-family: #F4C20F;
+}
+
+.border-warning {
+    font-family: #F4C20F;
+}
+
+.border-danger {
+    font-family: #EF5C0A;
+}
+
+.link-danger{
+    font-family: #EF5C0A;
+}
+
+.link-warning {
+    font-family: #F4C20F;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.btn-outline-warning:hover{
+    background-color: #00282E;
+}
+
+.btn-outline-warning:active {
+    background-color: transparent !important;
+}
+
+.btn-outline-danger:hover {
+    background-color: #00282E;
+}
+
+.btn-outline-danger:active {
+    background-color: transparent !important;
+}
+
+.bg {
+    background-color:#00282E;
+}
+
+.bg-class {
+    background-color: #E9ECEF;
+}
+
+.none{
+    display: none;
+}
+
+@media screen and (max-width:992px) {
+    .border-end{
+       border-right: 0 !important;
+    }
+}
